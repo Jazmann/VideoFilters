@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0940ED8D167B810900CA303C /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940ED8A167B810900CA303C /* libc++.1.dylib */; };
+		0940ED8E167B810900CA303C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940ED8B167B810900CA303C /* libc++.dylib */; };
+		0940ED8F167B810900CA303C /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940ED8C167B810900CA303C /* libc++abi.dylib */; };
 		099AC352162469F100E12E63 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 099AC351162469F100E12E63 /* Default-568h@2x.png */; };
 		5C50CA1C15A213EC005DBE0E /* CvFilterController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5C50CA1915A213EC005DBE0E /* CvFilterController.mm */; };
 		5C6BFC841588F79400F7692B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6BFC831588F79400F7692B /* UIKit.framework */; };
@@ -15,7 +18,7 @@
 		5C6BFC8E1588F79400F7692B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C6BFC8C1588F79400F7692B /* InfoPlist.strings */; };
 		5C6BFC901588F79400F7692B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BFC8F1588F79400F7692B /* main.m */; };
 		5C6BFC941588F79400F7692B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6BFC931588F79400F7692B /* AppDelegate.m */; };
-		5C6BFC9A1588F79400F7692B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6BFC981588F79400F7692B /* ViewController_iPhone.xib */; };
+		5C6BFC9A1588F79400F7692B /* (null) in Resources */ = {isa = PBXBuildFile; };
 		5C6BFC9D1588F79400F7692B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6BFC9B1588F79400F7692B /* ViewController_iPad.xib */; };
 		5C6BFCA41588F7AB00F7692B /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6BFCA31588F7AB00F7692B /* opencv2.framework */; };
 		5C6BFCAC1588F7ED00F7692B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6BFCAB1588F7ED00F7692B /* QuartzCore.framework */; };
@@ -34,6 +37,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0940ED8A167B810900CA303C /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		0940ED8B167B810900CA303C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0940ED8C167B810900CA303C /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
 		099AC351162469F100E12E63 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5C50CA1815A213EC005DBE0E /* CvFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CvFilterController.h; path = ../shared/CvFilterController.h; sourceTree = "<group>"; };
 		5C50CA1915A213EC005DBE0E /* CvFilterController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CvFilterController.mm; path = ../shared/CvFilterController.mm; sourceTree = "<group>"; };
@@ -47,7 +53,6 @@
 		5C6BFC911588F79400F7692B /* VideoFilters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoFilters-Prefix.pch"; sourceTree = "<group>"; };
 		5C6BFC921588F79400F7692B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5C6BFC931588F79400F7692B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5C6BFC991588F79400F7692B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		5C6BFC9C1588F79400F7692B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		5C6BFCA31588F7AB00F7692B /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../openCV_Dev/ios/opencv2.framework; sourceTree = "<group>"; };
 		5C6BFCAB1588F7ED00F7692B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -73,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0940ED8D167B810900CA303C /* libc++.1.dylib in Frameworks */,
+				0940ED8E167B810900CA303C /* libc++.dylib in Frameworks */,
+				0940ED8F167B810900CA303C /* libc++abi.dylib in Frameworks */,
 				5CD8E83E15A222E700AB1240 /* Accelerate.framework in Frameworks */,
 				5C89EC4E15E003AF002183F7 /* AssetsLibrary.framework in Frameworks */,
 				5C6BFCB41588F80600F7692B /* CoreImage.framework in Frameworks */,
@@ -93,6 +101,9 @@
 		5C6BFC741588F79300F7692B = {
 			isa = PBXGroup;
 			children = (
+				0940ED8A167B810900CA303C /* libc++.1.dylib */,
+				0940ED8B167B810900CA303C /* libc++.dylib */,
+				0940ED8C167B810900CA303C /* libc++abi.dylib */,
 				099AC351162469F100E12E63 /* Default-568h@2x.png */,
 				5C6BFCA71588F7D000F7692B /* shared */,
 				5C6BFC891588F79400F7692B /* VideoFilters */,
@@ -132,7 +143,6 @@
 			children = (
 				5C6BFC921588F79400F7692B /* AppDelegate.h */,
 				5C6BFC931588F79400F7692B /* AppDelegate.m */,
-				5C6BFC981588F79400F7692B /* ViewController_iPhone.xib */,
 				5C6BFC9B1588F79400F7692B /* ViewController_iPad.xib */,
 				5C6BFC8A1588F79400F7692B /* Supporting Files */,
 			);
@@ -237,7 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6BFC8E1588F79400F7692B /* InfoPlist.strings in Resources */,
-				5C6BFC9A1588F79400F7692B /* ViewController_iPhone.xib in Resources */,
+				5C6BFC9A1588F79400F7692B /* (null) in Resources */,
 				5C6BFC9D1588F79400F7692B /* ViewController_iPad.xib in Resources */,
 				5C6BFCB71588F87300F7692B /* small_logo.png in Resources */,
 				5C955498158AC49600462759 /* app-icon_57x57.png in Resources */,
